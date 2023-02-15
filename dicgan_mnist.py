@@ -181,7 +181,7 @@ if use_cuda:
 optimizerD = optim.Adam(netD.parameters(), lr=1e-4, betas=(0.5, 0.9))
 optimizerG = optim.Adam(netG.parameters(), lr=1e-4, betas=(0.5, 0.9))
 
-one = torch.FloatTensor([1])
+one = torch.tensor(1, dtype=torch.float)  #torch.FloatTensor([1])
 mone = one * -1
 if use_cuda:
     one = one.cuda(gpu)
@@ -189,7 +189,7 @@ if use_cuda:
 
 # load pretrained model
 load_model_path = './results/pretrain'
-model_iter = 199999
+model_iter = 99999
 D_file = os.path.join(load_model_path, 'D_{}.pt'.format(model_iter))
 G_file = os.path.join(load_model_path, 'G_{}.pt'.format(model_iter))
 netG.load_state_dict(torch.load(G_file))
