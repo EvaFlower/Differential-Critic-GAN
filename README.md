@@ -24,4 +24,11 @@ Code for [Differential-Critic GAN: Generating What You Want by a Cue of Preferen
       - `results/$RUN_NAME/0/samples` contain sampled outputs from generator
       - Default `$RUN_NAME` is `dicgan_small_digits` 
     
-    
+# Citation
+@article{yao2022differential,  
+  title={Differential-Critic GAN: Generating What You Want by a Cue of Preferences},  
+  author={Yao, Yinghua and Pan, Yuangang and Tsang, Ivor W and Yao, Xin},  
+  journal={IEEE Transactions on Neural Networks and Learning Systems},  
+  year={2022},  
+  publisher={IEEE}  
+}
