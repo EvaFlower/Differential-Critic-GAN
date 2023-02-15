@@ -1,0 +1,3 @@
+epoch: 15
+Test set: Average loss: 0.0311, Accuracy: 9905/10000 (99%)
+12.2
