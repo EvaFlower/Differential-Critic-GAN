@@ -1,6 +1,12 @@
 # DiCGAN
 Code for [Differential-Critic GAN: Generating What You Want by a Cue of Preferences (TNNLS 2022)](https://arxiv.org/abs/2107.06700)
 
+# Requirements
+- python3
+- pytorch
+- NumPy, SciPy, Matplotlib
+
+# Training  
 1) Pretrain mnist classifier:  
   - Under ./cls_mnist dir: run `python cls_mnist.py`  
     - **Expected Output**  
