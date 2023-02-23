@@ -1,4 +1,4 @@
-# DiCGAN
+# Differential-Critic GAN: Generating What You Want by a Cue of Preferences
 Code for [Differential-Critic GAN: Generating What You Want by a Cue of Preferences (TNNLS 2022)](https://arxiv.org/abs/2107.06700)
 
 # Requirements
