@@ -8,7 +8,7 @@ Code for [Differential-Critic GAN: Generating What You Want by a Cue of Preferen
 
 # Training  
 1) Pretrain mnist classifier:  
-  - Under ./cls_mnist dir: run `python cls_mnist.py`  
+  - Under ./cls_mnist dir: run `python cls_mnist.py --save-model`  
     - **Expected Output**  
       - mnist_cnn.pt
 
